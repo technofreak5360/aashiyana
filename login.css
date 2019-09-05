@@ -1,0 +1,127 @@
+body
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#fff;
+	background: url(log.jpg);
+	background-size:cover;
+}
+
+.signup
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 260;
+	margin: auto;
+	margin-top: 75px;
+	height: 450px;
+	margin-right: 500px;
+}
+
+	
+}
+input[type=text]
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play',sans-serif;
+	font-size: 16px;
+	font-weight:200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play',sans-serif;
+	font-size: 16px;
+	font-weight:200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=submit]
+{
+	border: none;
+	width: 190px;
+	background: white;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+input[type=submit]:hover
+{
+	color: #fff;
+	background-color: black;
+}
+.he
+{
+	font-size:10px;
+	color: white;
+	
+}
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+.signup:hover{
+	color: skyblue;
+}
+.container
+{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+}
+::placeholder
+{
+	color:aliceblue;
+	opacity:0.8;
+}
+#msg
+{
+	visibility: hidden;
+	min-width: 250px;
+	
+	background-color:skyblue;
+	color:#000;
+	text-align: center;
+	border-radius:2px;
+	padding:16px;
+	position: fixed;
+	z-index:1;
+	right: 31%;
+	top: 25px;
+	font-size: 17px;
+	margin-right:30px;
+	
+}
+#msg.show
+{
+	visibility:visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	
+}
+@-webkit-keyframes fadein 
+{
+	from {top: 0; opacity: 0;}
+	to {top: 30px; opacity: 0;}
+}
+@-webkit-keyframes fadeout
+{
+	from {top: 0; opacity: 0;}
+	to {top: 30px; opacity: 0;}
+}
